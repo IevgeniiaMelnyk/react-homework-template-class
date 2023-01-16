@@ -1,0 +1,15 @@
+.baseSection {
+    width: 1600px;
+    padding: 20px;
+    margin: auto;
+}
+
+.superSection {
+    composes: baseSection;
+    background-color: aqua;
+}
+
+.title {
+    font-size: 30px;
+    color: blue;
+}
